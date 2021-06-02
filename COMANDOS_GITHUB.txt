@@ -1,0 +1,42 @@
+ git git config –global user.email “email”
+
+ git config –global user.name “usuariodogit”
+
+//
+
+
+- Depois siga os comandos abaixo, mas assista os vídeos para entender o porque de cada um e porque podem acontecer erros nesse período.
+
+1º - Iniciar o processo
+
+$ git init
+
+2º - Mostra os arquivos que ainda não estão no repositorio
+
+$ git status
+
+3º - Adiciona os arquivos para irem ao repositório
+
+$ git add .
+
+4º - Nomeia esse upload, cada commit tem um nome.
+
+$ git commit -m “Exemplo – exercícios sobre operadores aritmeticos”
+
+5º - Informa para qual repositório vai esses arquivos, o link abaixo você vai copiar do github
+
+$ git remote add origin https://github.com/seunome/nomerepositorio.git
+
+6º - Agora precisamos enviar os arquivos o comando é:
+
+$ git push origin master
+
+7º - Na primeira vez ele irá pedir seu usuário e senha que cadastrou no git.
+
+Em caso de erro nessa etapa, use antes o comando abaixo:
+
+git pull origin master –allow-unrelated-histories (só em caso de erro)
+
+8º - Em seguida use esse novamente
+
+$ git push origin master

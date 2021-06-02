@@ -1,0 +1,9 @@
+System - class
+out - objeto
+printIn - method
+
+system out println ("")
+. escreva
+
+scanner leia = new scanner
+. leia

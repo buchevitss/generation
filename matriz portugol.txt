@@ -1,0 +1,9 @@
+vetores e matrizes 
+
+variáveis > repositorio de dados> armazena um de cada vez
+
+variaveis do tipo vetor> armazena diversos valores e cada um deles individualmente sem sobrepor
+
+VETOR tipo da variavel nome [quantidade]
+
+MATRIZ matriz bidimencional = tipo nome [linhas] [colunas]

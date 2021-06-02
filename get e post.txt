@@ -1,0 +1,10 @@
+Metodos HTTP 
+
+GET: pode ser gerado ppor um  formulario web e também por um link na pagina html - os dados podem ser vistos na url 
+
+POST: só pode ser gerado através de formulario web ,tão seguro quanto o get, envia os dados no corpo da rquisição para entrar no site
+
+"então, a internet é como um telefone, só que dá pra fazer mais coisas. por exemplo, cada computador tem seu numerozinho, aí voce pluga o seu computador em um local com conexao, igual o telefone mesmo, ai você conecta e coloca o nome do site que você quer acessar. site é como se fosse o numero de telefone da outra pessoa"
+
+é no http que o dev vai conhecer os protocolos de segurança e como ajustar o seu código para realizar a ação determinada 
+
