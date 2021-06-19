@@ -1,0 +1,58 @@
+valores que o usuário vai inserir 
+ 
+DESPEZAS FIXAS:
+- renda total  
+- numero de moradores 
+- pessoas que contribui economicamente
+- dependentes financeiros 
+- renda per capta 
+-aluguel/parcela da casa 
+- média conta de luz 
+- outras contas fixas 
+- média despeza de água 
+- internet 
+- saúde 
+- educação
+- carro  
+======== SE OS GASTOS PASSAREM DE 80% DA RENDA MENSAGEM DE ACONSELHAMENTO DE REDUÇÃO DE CONTAS ===============
+
+O sistema vai informar 
+- renda per capta 
+- conselho gasto médio de mercado (20% da renda total da casa se solteiro e 35% ate 4 moradores)
+- 10% lazer 
+
+=====================================================================================================
+digite seu nome: 
+
+Quantas pessoas moram com você? 
+
+Quantas pessoas contribuem com a renda da casa 
+
+Quantas pessoas são economicamente dependentes (ex, crianças, idosos, desempregados) 
+* escreva aqui as pessoas que não contribuem financeiramente por quaisquer motivos 
+
+Possui pets? Se sim, quantos? 
+Possui veículo automotivo? Se sim, quantos? Qual o ano do veículo?
+Qual a renda total da casa?
+
+
+DESPEZAS TOTAIS 
+
+Possui despeza fixas de moradia (aluguel, financiamentos, etc) Se sim, quanto? 
+Qual a média das contas de luz da casa? 
+Qual a média das contas de água da casa? 
+Qual a mensalidade de internet? 
+Você possui gasto fixo em educação (mensalidade de escolas ou  universidades?) 
+Você possui gasto fixo em saúde? (convenio, remedios regulares)
+Quais os gastos mensais com seu pet? 
+Outras despezas fixas 
+
+& Mostrar soma das despezas fixas em % do salário
+
+
+DESPEZAS VARIÁVEIS 
+& Recomenda-se um gasto de x% em mercado, priorizando os itens da cesta básica 
+& 10% em lazer 
+& eventuais dividas 
+
+

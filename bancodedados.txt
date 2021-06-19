@@ -1,0 +1,47 @@
+Banco de dados
+
+= coleção de dados inter relacionados
+= sobre um dominio especifico
+> fazer consultas de forma fácil e rápida 
+
+SGDB - sistema de gerenciamento de banco de dados 
+>> interage com usuários 
+**vamos usar o software Mysql**
+
+os relacionais expoe os dados em formato de tabela 
+>> integridade maior nos dados 
+dentro do my sql tem vários bancos de dados> dentro de um banco de dados tem várias tabelas 
+
+> cada conjunto de info de uma coisa tá dentro da mesma linha
+> cada coluna possui uma tipagem de dados especificos 
+
+*formato de dados especifico
+
+texto = vachar
+caracter = char
+data =  date 
+inteiro = int 
+booleano = boolean
+
+chave estrangeira = promove o relacionamento entre tabelas 
+
+modelagem de dados = criação de protótipos (rascunhos) com todas as caracteristicas que você precisa em sua tabela 
+
+MER - modelo entidade relacional
+. objetivo descrever a tabela e seus atributos 
+
+DER - diagrama entidade relacional 
+. mais complexa 
+. tem o tipo de formato de cada dado
+
+chave privária > todas as linhas da tabela tem esse numero identificador
+
+chave estrangeira> liga uma tabela a outra 
+
+ABORDAGENS 
+
+ONE TO MANY - uma marca para vários produtos
+
+ONE TO ONE - um presidente governa apenas um país e um pais pode ser governado por vários presidentes 
+
+MANY TO MANY - um ator pode fazer vários filmes e um filme é feito por vários atores 

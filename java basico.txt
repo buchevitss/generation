@@ -7,3 +7,77 @@ system out println ("")
 
 scanner leia = new scanner
 . leia
+>>>>> leia = objeto do tipo scanner
+
+input = colocar dados
+output = sair com os dados
+
+para = for (3 argumentos) 
+(inicio, fim, condição)
+
+POO 
+ARRAY - variavel composta 
+
+float [] notas = new float [];
+, tipo de dados do array, colchetes para mostrar que é uma variável composta, nome do array, tipo de dado, e colchetes com o numero que suporta; 
+
+length (busca direto a variavel)
+variavel final = constante 
+
+
+array 2 -[][]
+int [][] numeros = new int [3][3];
+colchetes em branco pra mostrar que é um array
+[linha][coluna] a ordem certa 
+
+
+CLASSE - generica (possui atributos e metodos) 
+
+OBJETO - especifico 
+"então a class é a Família 24, a Mara o Objeto e o Método dela é por ordem
+
+CLASS - vila oculta da folha
+OBJETO - naruto
+MÉTODO - jutsus
+ATRIBUTO - ser ninja 
+
+Atributo Nadar metodo nadando 
+if(peixe.Nadar == true){ sysout"nadou".}
+
+void= função ou método sem retorno 
+
+botão direito >> source >> generate gatters e saccers
+
+POO - abstrações tentando simular a realidade 
+- encapsulamento dos dados
+- segurança dos elementos 
+- propriedades tornam-se importantes
+
+herança - nao precisa fazer recodificação 
+o herdeiro pode ter suas proprias caracteristicas
+
+classe base > SUPERCLASSE
+ cada subclasse se torna uma superclasse para aquela que deriva dela
+
+sintaxe 
+
+[modificador] class NomeDaSuperclass
+
+{//corto da superclasse...}
+
+[modificador] class nomedasubclasse extends nomedasuperclasse
+{// corpo da superclasse}
+
+extends é o comando para herdar
+
+palavra super refere-se a uma superclasse 
+se a superclasse nao contiver o construtor padrão e o construtor da subclasse nao compila
+
+POLIMORFISMO
+varias formas
+
+criar uma subclasse que responde diferentemente a superclasse 
+
+o mesmo metodo sendo aplicado de varias formas diferentes 
+
+>redesenho a partir de um metodo que ja existe<
