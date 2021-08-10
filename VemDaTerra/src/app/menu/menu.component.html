@@ -1,0 +1,102 @@
+  <!-- <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #fefffd;">
+<nav class="navbar navbar-expand-lg navbar-light" style="background-color: #fefffd;">
+
+  <div class="container-fluid">
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item"> -->
+          <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+              <i class="fa fa-pagelines" aria-hidden="true"></i>
+
+              <a class="navbar-brand" href="#">  Vem da Terra</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+          <a class="nav-link text-bold" routerLink='/inicio' aria-current="page" href="#">Início</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-bold" routerLink='/sobre' aria-current="page" href="#">Sobre Nós</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-bold" routerLink='/contato' href="#">Contato</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-bold" href="#" id="navbarDropdown" role="button"
+            data-bs-toggle="dropdown" aria-expanded="false">
+            Nossos produtos
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" routerLink='/produto' >Alimentos</a></li>
+            <li><a class="dropdown-item" routerLink='/produto' >Cosméticos</a></li>
+            <li><a class="dropdown-item" routerLink='/produto' >Higiene</a></li>
+            <li><a class="dropdown-item" routerLink='/produto' >Vestuário</a></li>
+            <li><a class="dropdown-item" routerLink='/produto' >Papelaria</a></li>
+            <li><a class="dropdown-item" routerLink='/produto' >Mobilia</a></li>
+
+            <li><hr class="dropdown-divider"></li>
+            
+
+            <li *ngIf="localStorageTipo=='ADM' "><a class="dropdown-item" routerLink='/cadastro/categoria' >Cadastrar categoria</a></li>
+            <li *ngIf="localStorageTipo=='ADM'"><a class="dropdown-item" routerLink='/cadastro/produto' >Cadastrar produto</a></li>
+            
+          </ul>
+        </li>
+
+        <li *ngIf="!localStorageEmail" class="nav-item">
+          <a class="nav-link text-bold" data-bs-toggle="modal" data-bs-target="#login" href="#">Entrar</a>
+        </li> 
+
+        <li *ngIf="localStorageEmail" class="nav-item">
+          <a class="nav-link text-bold" (click)='sair()'>Sair</a>
+        </li>
+
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+    </div>
+</nav>
+
+  
+
+<!--Modal --> 
+<div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="TituloModalCentralizado"
+  aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered col-md-12 d-flex justify-content-center" role="document">
+    <div class="modal-content br-50 wh">
+      <div class="modal-header d-flex justify-content-center">
+        <h5 class="fw-bold fs-30">Faça login</h5>
+      </div>
+      <div class="row d-flex justify-content-center">
+        <div class="col-md-10">
+          <div class="modal-body">
+            <div class="form-group my-2">
+              <label for="email">Endereço de email</label>
+              <input [(ngModel)]="userLogin.email" type="email" class="form-control" id="email" aria-describedby="email"
+                placeholder="Digite seu email">
+            </div>
+            <div class="form-group my-2 ">
+              <label for="senha">Senha</label>
+              <input [(ngModel)]="userLogin.senha" type="password" class="form-control" id="senha"
+                placeholder="Digite uma Senha">
+            </div>
+
+          </div>
+          <div class="modal-footer d-flex justify-content-center my-2">
+            <button type="button" class="btn btn-danger me-3" data-bs-dismiss="modal" routerLink='/inicio'>Cancelar</button>
+            <button type="button" class="btn btn-success" data-bs-dismiss="modal" (click)='login()'>Entrar</button>
+          </div>
+          
+          <p class="text-center" data-bs-dismiss="modal" >Não tem uma conta? <a routerLink='/cadastro'>Cadastre-se</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
